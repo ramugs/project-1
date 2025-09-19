@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+
+    <div id="heading_text">Heading 1</div>
+
+    <div class="info">More information here.</div>
+
+        <script>
+      // Variables
+      let a = "a";
+      const b = "b";
+      var c = "c";
+
+      // conditions
+
+      //   const age = "18";
+
+      //   if (age < 18) {
+      //     console.log("You are under age");
+      //   } else if (age === 18) {
+      //     console.log("congrats");
+      //   } else  {
+      //     console.log("You are old");
+      //   }
+
+      //   for (let i = 1; i <= 5; i++) {
+      //     console.log(i, "number");
+      //   }
+
+      //   let j = 1;
+      //   while (j <= 5) {
+      //     console.log(j, "while");
+      //     j++;
+      //   }
+
+      //   function greetMessage(name, name2) {
+      //     console.log(`Hello ${name} ${name2}`);
+      //   }
+
+      //   greetMessage("Venki", "ramu");
+
+      //   const addNumber = (num1, num2) => {
+      //     console.log(num1 + num2);
+      //   };
+
+      //   addNumber(2, 3)
+
+      // selectors
+
+      const texts = document.getElementById("heading_text");
+      console.log(texts.innerText);
+      texts.innerText = 'Heading 2'
+
+      const divElement = document.querySelector(".info");
+    //   const divText = divElement.innerText;
+    //   console.log(divText); // Output: "More information here."
+      divElement.innerText = 'something different'
+    </script>
+  </body>
+</html>
